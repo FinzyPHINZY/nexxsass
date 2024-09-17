@@ -2,7 +2,7 @@ import logo from '../assets/logo.png'
 
 const Navbar = () => {
   return (
-    <div className="sticky inset-x-0 top-0 w-full z-3">
+    <div className="sticky inset-x-0 top-0 w-full z-30">
       <div className="mx-auto w-full max-w-screen-xl px-2.5 lg:px-20 relative">
         <div className="flex items-center justify-between">
           <div className="">

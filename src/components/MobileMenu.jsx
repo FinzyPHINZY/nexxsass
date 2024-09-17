@@ -23,6 +23,7 @@ const navItems = [
 
 const MobileMenu = () => {
   const [navOpen, setNavOpen] = useState(false)
+
   return (
     <div className="block md:hidden">
       {!navOpen ? (
@@ -31,7 +32,7 @@ const MobileMenu = () => {
         </button>
       ) : (
         <>
-          <button onClick={() => setNavOpen(true)}>
+          <button onClick={() => setNavOpen(false)}>
             <X size={32} />
           </button>
 

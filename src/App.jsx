@@ -1,6 +1,7 @@
 import './App.css'
 import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
+import RoadMapSection from './components/RoadMapSection'
 import Slider from './components/Slider'
 import { partnersLogo } from './data/partners'
 
@@ -21,6 +22,7 @@ export default function App() {
         <div className="container mx-auto">
           <HeroSection />
           <Slider images={partnersLogo} />
+          <RoadMapSection />
         </div>
       </div>
     </>

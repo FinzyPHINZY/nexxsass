@@ -1,6 +1,13 @@
 import './App.css'
+import FeaturesSection from './components/FeaturesSection'
+import Footer from './components/Footer'
 import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
+import PricingSection from './components/PricingSection'
+import RoadMapSection from './components/RoadMapSection'
+import Slider from './components/Slider'
+import TestimonialsSection from './components/TestimonialsSection'
+import { partnersLogo } from './data/partners'
 
 export default function App() {
   return (
@@ -18,6 +25,12 @@ export default function App() {
         <Navbar />
         <div className="container mx-auto">
           <HeroSection />
+          <Slider images={partnersLogo} />
+          <RoadMapSection />
+          <FeaturesSection />
+          <TestimonialsSection />
+          <PricingSection />
+          <Footer />
         </div>
       </div>
     </>

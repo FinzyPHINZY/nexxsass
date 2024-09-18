@@ -4,9 +4,12 @@ import Tagline from './Tagline'
 
 const FeaturesSection = () => {
   return (
-    <div className="flex items-center p-10 justify-center flex-col">
+    <section
+      id="features"
+      className="flex items-center p-10 justify-center flex-col"
+    >
       <Tagline>Features</Tagline>
-      <h2 className="font-extrabold text-3xl mb-8 pt-3">
+      <h2 className="font-extrabold text-3xl mb-4 md:mb-8 pt-3 text-center">
         Intelligent Form Building
       </h2>
       <div className="mt-10 grid items-center grid-cols-1 gap-3 md:grid-cols-3 max-w-screen-xl">
@@ -22,7 +25,7 @@ const FeaturesSection = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -2,9 +2,9 @@ import Tagline from './Tagline'
 
 const TestimonialsSection = () => {
   return (
-    <section className="flex flex-col items-center justify-center">
+    <section className="flex flex-col items-center justify-center p-6">
       <Tagline>Testimonials</Tagline>
-      <h2 className="text-3xl font-bold text-center mt-4">
+      <h2 className="text-3xl font-bold text-center mt-4 pb-2">
         What builders say about us
       </h2>
       <div className="grid gap-8 grid-cols-1 md:grid-cols-3 items-center max-w-screen-xl text-left">

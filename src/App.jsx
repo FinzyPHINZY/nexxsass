@@ -2,6 +2,7 @@ import './App.css'
 import FeaturesSection from './components/FeaturesSection'
 import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
+import PricingSection from './components/PricingSection'
 import RoadMapSection from './components/RoadMapSection'
 import Slider from './components/Slider'
 import TestimonialsSection from './components/TestimonialsSection'
@@ -27,6 +28,7 @@ export default function App() {
           <RoadMapSection />
           <FeaturesSection />
           <TestimonialsSection />
+          <PricingSection />
         </div>
       </div>
     </>

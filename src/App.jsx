@@ -1,5 +1,6 @@
 import './App.css'
 import FeaturesSection from './components/FeaturesSection'
+import Footer from './components/Footer'
 import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
 import PricingSection from './components/PricingSection'
@@ -29,6 +30,7 @@ export default function App() {
           <FeaturesSection />
           <TestimonialsSection />
           <PricingSection />
+          <Footer />
         </div>
       </div>
     </>

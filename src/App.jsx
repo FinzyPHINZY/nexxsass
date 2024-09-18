@@ -1,4 +1,5 @@
 import './App.css'
+import FeaturesSection from './components/FeaturesSection'
 import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
 import RoadMapSection from './components/RoadMapSection'
@@ -23,6 +24,7 @@ export default function App() {
           <HeroSection />
           <Slider images={partnersLogo} />
           <RoadMapSection />
+          <FeaturesSection />
         </div>
       </div>
     </>
